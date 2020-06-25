@@ -1,0 +1,19 @@
+{
+  "name": "js-back-end-exam-28-june",
+  "version": "1.0.0",
+  "description": "usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]            <command> [<args>]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoykoPetevBoev/JS-Back-End-Exam-28-June.git"
+  },
+  "author": "Boyko Boev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoykoPetevBoev/JS-Back-End-Exam-28-June/issues"
+  },
+  "homepage": "https://github.com/BoykoPetevBoev/JS-Back-End-Exam-28-June#readme"
+}
