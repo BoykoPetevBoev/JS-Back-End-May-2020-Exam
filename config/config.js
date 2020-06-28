@@ -5,8 +5,9 @@ const config = {
         port: process.env.PORT || 3000,
         dbUser: 'user',
         dbPassword: 123,
-        dbName: '', //TODO
-        dbAddress: 'softuni-dx3ut.mongodb.net'
+        dbName: 'Theaters', 
+        dbAddress: 'softuni-dx3ut.mongodb.net',
+        tokenKey: 'SuperSecretKey'
     },
     production: {}
 }

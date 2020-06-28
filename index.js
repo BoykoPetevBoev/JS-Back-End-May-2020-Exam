@@ -4,7 +4,7 @@ const app = express();
 
 require('./config/database')();
 require('./config/express')(app);
-require('./routes')(app);
+require('./routes/index')(app);
 
 app.listen(config.port, console.log(`Server started on port: ${config.port}`));
 

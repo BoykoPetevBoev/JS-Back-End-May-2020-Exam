@@ -1,19 +1,23 @@
 {
-  "name": "js-back-end-exam-28-june",
+  "name": "js-back-end",
   "version": "1.0.0",
-  "description": "usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]            <command> [<args>]",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BoykoPetevBoev/JS-Back-End-Exam-28-June.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
   "author": "Boyko Boev",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BoykoPetevBoev/JS-Back-End-Exam-28-June/issues"
-  },
-  "homepage": "https://github.com/BoykoPetevBoev/JS-Back-End-Exam-28-June#readme"
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.1.0"
+  }
 }

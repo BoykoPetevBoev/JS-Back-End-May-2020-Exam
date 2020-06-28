@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const config = require('./config');
 
 module.exports = () => {
-     databaseUrl = `mongodb+srv://${config.dbUser}:${config.dbPassword}@${config.dbAddress}/${config.dbName}?retryWrites=true&w=majority`;
+    databaseUrl = `mongodb+srv://${config.dbUser}:${config.dbPassword}@${config.dbAddress}/${config.dbName}?retryWrites=true&w=majority`;
 
     return mongoose.connect(databaseUrl, {
         useNewUrlParser: true,
